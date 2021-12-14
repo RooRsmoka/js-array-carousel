@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 1400px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 800px;
+    height: 500px;
+    padding: 80px 60px;
+    margin: 0 20px;
+    border: 4px #87cefa solid;
+    border-radius: 80px;
+    opacity: 0.6;
+    transition: border, opacity 0.8s;
+}
+
+.box:hover {
+    border: 4px #4169e1 solid;
+    opacity: 1;
+}
+
+.text-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fas {
+    cursor: pointer;
+    font-size: 20px;
+    color: #87cefa;
+    opacity: 0.6;
+    transition: all 0.3s;
+}
+
+.fas:hover {
+    transform: scale(2);
+    color: #4169e1;
+    opacity: 1;
+}

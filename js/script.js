@@ -1,7 +1,12 @@
 // Creo array di titoli.
 const headings = ['Questo è un titolo.', 'Questo è un\'altro titolo.', 'Anche questo è un titolo.', 'Questo è sicuramente un titolo.', 'Questo invece è Bob'];
 // Creo array di paragrafi.
-const paragraph = ['', '', '', '', ''];
+const paragraph = ['Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sed ex dolor velit incidunt, error dicta omnis id. In vero molestiae incidunt sint! Possimus sed eum quo neque consectetur nobis?',
+                   'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus architecto non repellendus quisquam dolorum itaque nulla eaque eligendi voluptatem quos cum, beatae minus error illo nostrum quasi quaerat omnis!',
+                   'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quod nam repudiandae cumque necessitatibus ipsum, officia, tenetur esse sunt quasi quia repellat, omnis culpa? Dicta nulla voluptate aliquam! Numquam, aliquid?',
+                   'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam quia, vero ipsa natus, vel laborum quibusdam nemo, ipsam laudantium sunt perferendis eius minima sit cum officia quas sequi! Eligendi.',
+                   'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A recusandae facilis aperiam magni eos hic minima, in et libero animi accusantium quis dolor sunt dolore quaerat illo maxime. Sequi, excepturi?'
+                ];
 // Creo la variabile currentIndex.
 let currentIndex = 0;
 // Salvo in una variabile l'elemento titolo.
